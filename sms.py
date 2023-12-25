@@ -6,9 +6,9 @@ CSV_FILE = 'participants.csv'    # File containing participant numbers
 SMS_LENGTH = 160                 # Max length of one SMS message
 MSG_COST = 0.057                 # Cost per message
 
-account_sid = ""
-auth_token = ""
-from_num = ""
+account_sid = "AC0528d01825d7620c9468c8306a35a3e4"
+auth_token = "6cbb83e2a914c0d5f26134f5f9f6f87b"
+from_num = "+15309245367"
 
 # Now put your SMS in a file called message.txt, and it will be read from there.
 with open(MESSAGE_FILE, 'r') as content_file:
